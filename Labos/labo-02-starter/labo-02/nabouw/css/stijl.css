@@ -1,0 +1,73 @@
+:root{
+    --color-papier:#fbf7f0;
+    --color-inkt:#2b2b2b;
+    --color-gedempt:#6b6b6b;
+    --color-accent:#b5451b;
+    --color-zebra:#f1e9dc;
+    --font-body:Georgia,Verdana;
+
+}
+body{
+    background-color: var(--color-papier );
+    font-style: var(--font-body);
+}
+
+header h1{
+    color:var(--color-accent);
+    font-style: var(--font-body);
+    font-weight: 100;
+}
+
+.slogan{
+    color: var(--color-gedempt);
+    font-style: italic;
+}
+
+nav ul li a{
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: var(--font-body);
+}
+
+main article h2:nth-child(1){
+    font-weight: 100;
+    
+}
+
+main article h3{
+    color:var(--color-gedempt);
+}
+
+.kaart  li:nth-child(odd){
+    color: var(--color-accent);
+}
+
+article ul li span{
+    color: var(--color-zebra);
+}
+
+main article h2:nth-child(8){
+    font-weight:100 ;
+}
+
+main article p:nth-child(9) a{
+color: var(--color-accent);
+}
+
+main article h2:nth-child(12){
+    font-weight: 100;
+}
+
+main article p:nth-child(13) strong{
+    color: var(--color-accent);
+}
+
+footer p{
+    color: var(--color-gedempt);
+    text-align: center;
+}
+
+footer p a{
+    color: var(--color-gedempt);
+}
