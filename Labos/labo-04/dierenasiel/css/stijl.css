@@ -2,7 +2,46 @@
 
 /* === tokens === */
 :root {
-
+--balk: #1f3a2e;
+--tekst:#f3efe6;
+--accent:#e6b53c;
 }
 
 /* === your rules === */
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: var(--balk);
+    
+    display: flex;
+    gap: 65vw;
+    min-width: 100vw;
+    border: 0.1rem solid black;
+}
+header a{
+    border: 0.1rem solid blue;
+    color: var(--tekst);
+}
+
+header a:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+display: flex;
+gap: 2vw;
+flex: 1;
+
+}
+header a{
+    text-decoration: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+header nav ul li{
+    list-style-type: none;
+}
