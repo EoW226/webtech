@@ -2,7 +2,13 @@
 
 /* === tokens === */
 :root {
-
+--blauw: #2554ab ;
+--lila: #a090af;
+--bruin:#a16122;
+--geel:#e7c948;
+--marine:#13234e;
+--olijf:#ae9310;
+--rood:#cd2424;
 }
 
 /* === your rules === */
